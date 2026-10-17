@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="An interactive optics and photonics laboratory in your browser. Build real setups from 19 components in 2D or 3D and watch the light ray-traced live, with a guided tour and ten auto-graded challenges.">
 <meta name="theme-color" content="#0b0a10">
-<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20110%22%3E%3Cpath%20d%3D%22M26%205H74A20%2020%200%200%201%2094%2025V62Q94%2071%2087%2077L55%20100Q50%20104%2045%20100L13%2077Q6%2071%206%2062V25A20%2020%200%200%201%2026%205Z%22%20fill%3D%22%230d1420%22%20stroke%3D%22%233ee07d%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M31%2055%20L90%2046%20L90%2064%20Z%22%20fill%3D%22%234ef08a%22%2F%3E%3Ccircle%20cx%3D%2231%22%20cy%3D%2255%22%20r%3D%226%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%3E">
-<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20110%22%3E%3Cpath%20d%3D%22M26%205H74A20%2020%200%200%201%2094%2025V62Q94%2071%2087%2077L55%20100Q50%20104%2045%20100L13%2077Q6%2071%206%2062V25A20%2020%200%200%201%2026%205Z%22%20fill%3D%22%230d1420%22%20stroke%3D%22%233ee07d%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M31%2055%20L90%2046%20L90%2064%20Z%22%20fill%3D%22%234ef08a%22%2F%3E%3Ccircle%20cx%3D%2231%22%20cy%3D%2255%22%20r%3D%226%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Crect%20width%3D%22100%22%20height%3D%22100%22%20rx%3D%2222%22%20fill%3D%22%230b0a10%22%2F%3E%20%20%20%20%20%20%3Crect%20x%3D%2216.50%22%20y%3D%2231.00%22%20width%3D%229%22%20height%3D%2238.00%22%20rx%3D%224.50%22%20fill%3D%22%233ee07d%22%20opacity%3D%220.56%22%2F%3E%20%20%20%20%20%20%3Crect%20x%3D%2231.00%22%20y%3D%2224.00%22%20width%3D%229%22%20height%3D%2252.00%22%20rx%3D%224.50%22%20fill%3D%22%233ee07d%22%20opacity%3D%220.78%22%2F%3E%20%20%20%20%20%20%3Crect%20x%3D%2245.50%22%20y%3D%2217.00%22%20width%3D%229%22%20height%3D%2266.00%22%20rx%3D%224.50%22%20fill%3D%22%23eafff3%22%2F%3E%20%20%20%20%20%20%3Crect%20x%3D%2260.00%22%20y%3D%2224.00%22%20width%3D%229%22%20height%3D%2252.00%22%20rx%3D%224.50%22%20fill%3D%22%233ee07d%22%20opacity%3D%220.78%22%2F%3E%20%20%20%20%20%20%3Crect%20x%3D%2274.50%22%20y%3D%2231.00%22%20width%3D%229%22%20height%3D%2238.00%22%20rx%3D%224.50%22%20fill%3D%22%233ee07d%22%20opacity%3D%220.56%22%2F%3E%3C%2Fsvg%3E">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Crect%20width%3D%22100%22%20height%3D%22100%22%20rx%3D%2222%22%20fill%3D%22%230b0a10%22%2F%3E%20%20%20%20%20%20%3Crect%20x%3D%2216.50%22%20y%3D%2231.00%22%20width%3D%229%22%20height%3D%2238.00%22%20rx%3D%224.50%22%20fill%3D%22%233ee07d%22%20opacity%3D%220.56%22%2F%3E%20%20%20%20%20%20%3Crect%20x%3D%2231.00%22%20y%3D%2224.00%22%20width%3D%229%22%20height%3D%2252.00%22%20rx%3D%224.50%22%20fill%3D%22%233ee07d%22%20opacity%3D%220.78%22%2F%3E%20%20%20%20%20%20%3Crect%20x%3D%2245.50%22%20y%3D%2217.00%22%20width%3D%229%22%20height%3D%2266.00%22%20rx%3D%224.50%22%20fill%3D%22%23eafff3%22%2F%3E%20%20%20%20%20%20%3Crect%20x%3D%2260.00%22%20y%3D%2224.00%22%20width%3D%229%22%20height%3D%2252.00%22%20rx%3D%224.50%22%20fill%3D%22%233ee07d%22%20opacity%3D%220.78%22%2F%3E%20%20%20%20%20%20%3Crect%20x%3D%2274.50%22%20y%3D%2231.00%22%20width%3D%229%22%20height%3D%2238.00%22%20rx%3D%224.50%22%20fill%3D%22%233ee07d%22%20opacity%3D%220.56%22%2F%3E%3C%2Fsvg%3E">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="The Photonics Bench">
@@ -113,8 +113,8 @@ html.lab-mode #lab{display:flex;flex-direction:column;height:100%;min-height:0}
   backdrop-filter:blur(18px) saturate(160%);-webkit-backdrop-filter:blur(18px) saturate(160%);
 }
 .wordmark{display:flex;align-items:center;gap:9px;font-weight:700;letter-spacing:-.025em;font-size:15px}
-.mark{width:21px;height:23px;flex:0 0 auto;display:block}
-.hero-mark{width:84px;height:92px;display:block;margin-bottom:20px}
+.mark{width:24px;height:24px;flex:0 0 auto;display:block}
+.hero-mark{width:92px;height:92px;display:block;margin-bottom:20px}
 .nav-links{display:none;gap:22px;margin-left:14px}
 @media (min-width:760px){.nav-links{display:flex}}
 .nav-links a{
@@ -252,32 +252,11 @@ section{padding-block:72px}
 .pill.n{background:rgba(255,255,255,.05);color:var(--faint);border-color:var(--line-soft)}
 
 /* feature cards */
-.feat{padding:22px;min-width:0}
-.feat .ic{
   width:34px;height:34px;border-radius:10px;display:grid;place-items:center;margin-bottom:14px;
   background:var(--primary-soft);border:1px solid oklch(0.66 0.17 155 / .3);
 }
-.feat h3{font-size:15px;font-weight:650;letter-spacing:-.015em;margin-bottom:7px}
-.feat p{margin:0;color:var(--muted);font-size:13.5px;line-height:1.55}
-.feat code{font-family:var(--mono);font-size:12px;color:var(--primary-hi)}
 
-/* verification table */
-.table-wrap{overflow-x:auto;border-radius:var(--radius)}
-table.ver{border-collapse:collapse;width:100%;min-width:520px;font-size:13.5px}
-table.ver th{
-  text-align:left;padding:13px 18px;font-size:10px;font-weight:600;letter-spacing:.14em;
-  text-transform:uppercase;color:var(--faint);border-bottom:1px solid var(--line);
-}
-table.ver td{padding:13px 18px;border-bottom:1px solid var(--line-soft);vertical-align:top}
-table.ver tr:last-child td{border-bottom:0}
-table.ver td.n{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:12.5px;white-space:nowrap}
-table.ver td.ok{color:var(--primary-hi)}
 
-/* limits */
-.limit{display:flex;gap:13px;padding:15px 18px;align-items:flex-start}
-.limit svg{flex:0 0 auto;margin-top:2px;color:var(--warning)}
-.limit p{margin:0;font-size:13.5px;color:var(--muted)}
-.limit b{color:var(--fg);font-weight:600}
 
 /* closing cta */
 .closer{position:relative;overflow:hidden;padding:48px 24px;text-align:center;border-radius:calc(var(--radius) + 12px)}
@@ -306,7 +285,7 @@ footer{
 }
 .brand{display:flex;align-items:center;gap:9px;margin-right:2px}
 .brand b{font-weight:700;letter-spacing:-.025em;font-size:13.5px}
-.brand .mark{width:18px;height:20px}
+.brand .mark{width:21px;height:21px}
 .brand span{font-variant-numeric:tabular-nums;font-family:var(--mono);font-size:10px;color:var(--ghost);letter-spacing:.06em}
 /* the toolbar carries a lot now; shed the decorative parts before it wraps */
 @media (max-width:1180px){.brand span{display:none}}
@@ -622,40 +601,22 @@ html.lab-mode #lab{position:relative}
 </style>
 
 <svg width="0" height="0" aria-hidden="true" style="position:absolute">
-  <symbol id="logoMark" viewBox="0 0 100 110">
+  <symbol id="logoMark" viewBox="7 7 86 86">
     <defs>
-      <linearGradient id="lgBeam" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0" stop-color="#f2fff6" stop-opacity=".98"/>
-        <stop offset=".22" stop-color="#63f49a" stop-opacity=".92"/>
-        <stop offset="1" stop-color="#35d974" stop-opacity=".78"/>
-      </linearGradient>
-      <radialGradient id="lgDot">
-        <stop offset="0" stop-color="#ffffff"/>
-        <stop offset=".35" stop-color="#ccffdd" stop-opacity=".8"/>
-        <stop offset="1" stop-color="#4ef08a" stop-opacity="0"/>
-      </radialGradient>
-      <filter id="lgGlow" x="-45%" y="-45%" width="190%" height="190%">
-        <feGaussianBlur stdDeviation="3.2" result="b"/>
-        <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <filter id="lgGlow" x="-60%" y="-60%" width="220%" height="220%">
+        <feGaussianBlur stdDeviation="1.9" result="b"/>
+        <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
       </filter>
-      <clipPath id="lgClip">
-        <path d="M26 5 H74 A20 20 0 0 1 94 25 V62 Q94 71 87 77 L55 100 Q50 104 45 100 L13 77 Q6 71 6 62 V25 A20 20 0 0 1 26 5 Z"/>
-      </clipPath>
     </defs>
-    <!-- shield body, with the emerald rim glowing -->
+    <!-- an interference pattern: the envelope is the real fringe visibility curve -->
     <g filter="url(#lgGlow)">
-      <path d="M26 5 H74 A20 20 0 0 1 94 25 V62 Q94 71 87 77 L55 100 Q50 104 45 100 L13 77 Q6 71 6 62 V25 A20 20 0 0 1 26 5 Z"
-            fill="#0d1420" stroke="#3ee07d" stroke-width="4.6" stroke-linejoin="round"/>
-    </g>
-    <!-- the cooler inner rim -->
-    <path d="M26 5 H74 A20 20 0 0 1 94 25 V62 Q94 71 87 77 L55 100 Q50 104 45 100 L13 77 Q6 71 6 62 V25 A20 20 0 0 1 26 5 Z"
-          transform="translate(50 54) scale(.93) translate(-50 -54)"
-          fill="none" stroke="#8fa8c4" stroke-width="1.6" stroke-linejoin="round" opacity=".45"/>
-    <!-- a diverging beam from a point source, clipped to the shield -->
-    <g clip-path="url(#lgClip)">
-      <path d="M31 55 L92 46.5 L92 63.5 Z" fill="url(#lgBeam)"/>
-      <circle cx="31" cy="55" r="8" fill="url(#lgDot)"/>
-      <circle cx="31" cy="55" r="2.5" fill="#ffffff"/>
+      <rect x="16.90" y="32.50" width="6.2" height="35.00" rx="3.10" fill="#3ee07d" opacity="0.34"/>
+      <rect x="26.90" y="27.00" width="6.2" height="46.00" rx="3.10" fill="#3ee07d" opacity="0.56"/>
+      <rect x="36.90" y="21.50" width="6.2" height="57.00" rx="3.10" fill="#3ee07d" opacity="0.78"/>
+      <rect x="46.90" y="16.00" width="6.2" height="68.00" rx="3.10" fill="#eafff3"/>
+      <rect x="56.90" y="21.50" width="6.2" height="57.00" rx="3.10" fill="#3ee07d" opacity="0.78"/>
+      <rect x="66.90" y="27.00" width="6.2" height="46.00" rx="3.10" fill="#3ee07d" opacity="0.56"/>
+      <rect x="76.90" y="32.50" width="6.2" height="35.00" rx="3.10" fill="#3ee07d" opacity="0.34"/>
     </g>
   </symbol>
 </svg>
@@ -663,13 +624,10 @@ html.lab-mode #lab{position:relative}
 <div id="site">
 
   <nav class="nav">
-    <div class="wordmark"><svg class="mark" viewBox="0 0 100 110"><use href="#logoMark"/></svg>The Photonics Bench</div>
+    <div class="wordmark"><svg class="mark" viewBox="7 7 86 86"><use href="#logoMark"/></svg>The Photonics Bench</div>
     <div class="nav-links">
       <a href="#learn">Lessons</a>
       <a href="#experiments">Experiments</a>
-      <a href="#engine">Engine</a>
-      <a href="#verified">Verified</a>
-      <a href="#limits">Limits</a>
     </div>
     <div class="nav-grow"></div>
     <button class="btn-primary sm" data-open>Open the bench</button>
@@ -684,7 +642,7 @@ html.lab-mode #lab{position:relative}
     </div>
     <div class="hero-inner wrap">
       <div>
-        <svg class="hero-mark" viewBox="0 0 100 110" aria-hidden="true"><use href="#logoMark"/></svg>
+        <svg class="hero-mark" viewBox="7 7 86 86" aria-hidden="true"><use href="#logoMark"/></svg>
         <div class="eyebrow">Interactive optics &amp; photonics laboratory</div>
         <h1><span>The</span><span>Photonics</span><span>Bench</span></h1>
         <p class="tag">Build the setup. Watch the light do what light actually does.</p>
@@ -753,116 +711,8 @@ html.lab-mode #lab{position:relative}
     </div>
   </section>
 
-  <section id="engine">
-    <div class="wrap">
-      <div class="sec-head">
-        <div class="eyebrow">Under the bench</div>
-        <h2>The physics is computed, not drawn</h2>
-        <p>Nothing here is a canned animation. Each ray carries a direction, a wavelength,
-          a complex polarisation state and an accumulated optical path, and the picture is
-          whatever falls out of that.</p>
-      </div>
-      <div class="grid three">
 
-        <article class="feat glass">
-          <div class="ic"><svg width="17" height="17" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" style="color:oklch(0.8 0.19 155)"><path d="M1 13 L8 3 L17 9"/><circle cx="8" cy="3" r="1.6" fill="currentColor" stroke="none"/></svg></div>
-          <h3>Non-sequential ray tracing</h3>
-          <p>Rays find the nearest surface wherever it is. Beams double back, re-enter components
-            and cross the table in any order — nothing is pre-sorted into a column of elements.</p>
-        </article>
 
-        <article class="feat glass">
-          <div class="ic"><svg width="17" height="17" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" style="color:oklch(0.8 0.19 155)"><path d="M2 9h5M11 9h5"/><path d="M9 2v14" stroke-dasharray="2 2"/><path d="M7 5 L11 13"/></svg></div>
-          <h3>Snell with Sellmeier dispersion</h3>
-          <p>Prisms and windows refract through real index data for N-BK7, N-SF11, fused silica
-            and PMMA, including total internal reflection. Blue bends harder because <code>n(λ)</code> says so.</p>
-        </article>
-
-        <article class="feat glass">
-          <div class="ic"><svg width="17" height="17" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" style="color:oklch(0.8 0.19 155)"><circle cx="9" cy="9" r="6"/><path d="M5 13 L13 5"/></svg></div>
-          <h3>Jones-vector polarisation</h3>
-          <p>Two complex field components per ray, in-plane and vertical. Malus's law comes out
-            exact, and a λ/4 plate at 45° produces genuinely circular light.</p>
-        </article>
-
-        <article class="feat glass">
-          <div class="ic"><svg width="17" height="17" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" style="color:oklch(0.8 0.19 155)"><path d="M1 9 Q3 3 5 9 T9 9 T13 9 T17 9"/></svg></div>
-          <h3>Coherent summation at screens</h3>
-          <p>Fields are added as complex amplitudes with their phase, per wavelength. Fringes are
-            a result of optical path difference, never a texture painted on.</p>
-        </article>
-
-        <article class="feat glass">
-          <div class="ic"><svg width="17" height="17" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" style="color:oklch(0.8 0.19 155)"><path d="M9 2v4M9 12v4M9 7.4v3.2"/><path d="M3 9h3M12 9h3"/></svg></div>
-          <h3>Diffraction that samples the field</h3>
-          <p>A 40-micron slit collects light from a beam sampled every few hundred microns, the way
-            a real mask does, and re-radiates it with the correct sinc envelope.</p>
-        </article>
-
-        <article class="feat glass">
-          <div class="ic"><svg width="17" height="17" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" style="color:oklch(0.8 0.19 155)"><rect x="2.5" y="4" width="13" height="10" rx="1.5"/><path d="M5.5 11 L8 7.5 L10 9.5 L12.5 6.5"/></svg></div>
-          <h3>Instruments, not just pictures</h3>
-          <p>Power meters integrate over their aperture in mW, µW or nW. Screens report pitch and
-            visibility — and say so when a pattern is finer than the sensor can resolve, rather
-            than reporting a number they cannot measure.</p>
-        </article>
-
-        <article class="feat glass">
-          <div class="ic"><svg width="17" height="17" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" style="color:oklch(0.8 0.19 155)"><path d="M2 12 L9 15.5 L16 12"/><path d="M2 12 L2 6 L9 2.5 L16 6 L16 12"/><path d="M9 15.5 L9 9 M9 9 L2 6 M9 9 L16 6"/></svg></div>
-          <h3>Two geometries, two engines</h3>
-          <p>The 3D mode is a separate tracer with its own verification, not the flat one dressed
-            up. Rays carry a moving transverse basis, so polarisation decomposes exactly into
-            s and p at every oblique surface.</p>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <section id="verified">
-    <div class="wrap">
-      <div class="sec-head">
-        <div class="eyebrow">Checked against closed-form theory</div>
-        <h2>It agrees with the textbook</h2>
-        <p>The engine was run against analytic predictions before release. Residuals below are
-          one or two screen bins — the sampling limit, not a modelling error.</p>
-      </div>
-      <div class="glass table-wrap">
-        <table class="ver">
-          <thead><tr><th>Test</th><th>Simulated</th><th>Theory</th><th>Note</th></tr></thead>
-          <tbody>
-            <tr><td>Malus's law, 0–90°</td><td class="n ok">exact</td><td class="n">I₀cos²θ</td><td>0.1% floor is the 1000:1 extinction ratio</td></tr>
-            <tr><td>Michelson fringe pitch</td><td class="n">0.867 mm</td><td class="n">0.906 mm</td><td>λ ∕ 2θ at 0.02° mirror tilt</td></tr>
-            <tr><td>Mach–Zehnder pitch</td><td class="n ok">0.600 mm</td><td class="n">0.604 mm</td><td>complementary output ports</td></tr>
-            <tr><td>Young's fringes, d = 0.2 mm</td><td class="n">1.524 mm</td><td class="n">1.582 mm</td><td>λL ∕ d, invariant to ray count</td></tr>
-            <tr><td>Grating order m = ±1, 550 nm</td><td class="n ok">±41.4 mm</td><td class="n">±41.4 mm</td><td>d(sinθ − sinθᵢ) = mλ</td></tr>
-            <tr><td>Lens focal spot</td><td class="n ok">min at z = 100</td><td class="n">f = 100 mm</td><td>rms width symmetric about focus</td></tr>
-            <tr><td>Prism, 430 → 670 nm</td><td class="n ok">+15.1 → −4.4 mm</td><td class="n">monotonic in n</td><td>N-SF11, V = 25.7</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-
-  <section id="limits">
-    <div class="wrap">
-      <div class="sec-head">
-        <div class="eyebrow">Read this before you trust a number</div>
-        <h2>What it deliberately does not model</h2>
-        <p>A simulator that hides its boundaries teaches the wrong lesson. These are the edges.</p>
-      </div>
-      <div class="grid two">
-        <div class="limit glass"><svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="6.4"/><path d="M8 5v4M8 11h.01"/></svg>
-          <p><b>Diffraction is flat-mode only.</b> The 3D bench carries 17 of the 19 components; the double slit and the single slit stay in the top-down mode, where their fans are traced in one plane. In 2D, screens also read a line profile rather than an image.</p></div>
-        <div class="limit glass"><svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="6.4"/><path d="M8 5v4M8 11h.01"/></svg>
-          <p><b>No Fresnel coefficients.</b> Glass faces use a flat 98.5% transmission with no angle or polarisation dependence, so there is no Brewster angle and no ghost reflections. Total internal reflection is modelled.</p></div>
-        <div class="limit glass"><svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="6.4"/><path d="M8 5v4M8 11h.01"/></svg>
-          <p><b>Geometric rays, not Gaussian beams.</b> There is no waist, Rayleigh range or diffraction limit in free propagation, so a perfect lens focuses to a mathematical point.</p></div>
-        <div class="limit glass"><svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="6.4"/><path d="M8 5v4M8 11h.01"/></svg>
-          <p><b>Ideal thin lenses.</b> No spherical aberration, coma or astigmatism, and no thick-lens geometry. Chromatic aberration is available, because that one follows from <code>n(λ)</code>.</p></div>
-      </div>
-    </div>
-  </section>
 
   <section style="padding-top:0">
     <div class="wrap">
@@ -887,7 +737,7 @@ html.lab-mode #lab{position:relative}
   <div class="toolbar">
     <button class="btn" id="btnBack" title="Back to the site">← Site</button>
     <div class="tb-sep"></div>
-    <div class="brand"><svg class="mark" viewBox="0 0 100 110"><use href="#logoMark"/></svg><b>The Photonics Bench</b><span id="brandSpec">633 nm · 25 mm grid</span></div>
+    <div class="brand"><svg class="mark" viewBox="7 7 86 86"><use href="#logoMark"/></svg><b>The Photonics Bench</b><span id="brandSpec">633 nm · 25 mm grid</span></div>
     <div class="tb-sep"></div>
     <div class="seg" role="group" aria-label="Dimensions">
       <button class="seg-b on" id="btnM2" type="button">2D</button>
